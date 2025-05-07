@@ -1,0 +1,8 @@
+
+
+All code should go to the GIt Repo
+
+
+Jenkins - Git repository
+
+Jenkins - Pom.xml - TestnG.xml - Scripting - Main Method -Page Object Model
