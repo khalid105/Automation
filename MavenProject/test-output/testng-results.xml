@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-28T21:27:59 EDT" name="Suite" finished-at="2025-04-28T21:28:04 EDT" duration-ms="4821">
+  <suite started-at="2025-05-14T09:30:42 EDT" name="Default suite" finished-at="2025-05-14T09:30:46 EDT" duration-ms="4414">
     <groups>
     </groups>
-    <test started-at="2025-04-28T21:27:59 EDT" name="Test" finished-at="2025-04-28T21:28:04 EDT" duration-ms="4821">
-      <class name="com.test.MultiTest">
-        <test-method is-config="true" signature="Initalization()[pri:0, instance:com.test.MultiTest@d35dea7]" started-at="2025-04-28T21:27:59 EDT" name="Initalization" finished-at="2025-04-28T21:28:02 EDT" duration-ms="3568" status="PASS">
+    <test started-at="2025-05-14T09:30:42 EDT" name="Default test" finished-at="2025-05-14T09:30:46 EDT" duration-ms="4414">
+      <class name="com.test.TestNgAssignment1">
+        <test-method signature="LaunchBrowser()[pri:0, instance:com.test.TestNgAssignment1@2a65fe7c]" started-at="2025-05-14T09:30:42 EDT" name="LaunchBrowser" finished-at="2025-05-14T09:30:46 EDT" duration-ms="4366" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Initalization -->
-        <test-method signature="SelectDropDown()[pri:1, instance:com.test.MultiTest@d35dea7]" started-at="2025-04-28T21:28:02 EDT" name="SelectDropDown" finished-at="2025-04-28T21:28:03 EDT" duration-ms="378" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectDropDown -->
-        <test-method signature="AdvanceDropDown()[pri:2, instance:com.test.MultiTest@d35dea7]" started-at="2025-04-28T21:28:03 EDT" name="AdvanceDropDown" finished-at="2025-04-28T21:28:03 EDT" duration-ms="449" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AdvanceDropDown -->
-        <test-method is-config="true" signature="CleanUp()[pri:0, instance:com.test.MultiTest@d35dea7]" started-at="2025-04-28T21:28:03 EDT" name="CleanUp" finished-at="2025-04-28T21:28:04 EDT" duration-ms="353" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CleanUp -->
-      </class> <!-- com.test.MultiTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- LaunchBrowser -->
+      </class> <!-- com.test.TestNgAssignment1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
