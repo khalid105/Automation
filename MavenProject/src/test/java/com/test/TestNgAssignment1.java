@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class TestNgAssignment1 {
 	WebDriver driver;
-//Edit the file
+//Removed the edit
 	@Test
 	public void LaunchBrowser()
 	{
