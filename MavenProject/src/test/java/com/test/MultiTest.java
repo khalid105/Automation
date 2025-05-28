@@ -1,6 +1,9 @@
 package com.test;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.List;
+import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -13,25 +16,13 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class MultiTest {
+public class MultiTest extends SetUp {
 	
-	WebDriver driver ;
-
-	@BeforeClass
-	public void Initalization() {
-		 driver = new ChromeDriver();
-
-		driver.get("https://testautomationpractice.blogspot.com/");
-
-		driver.manage().window().maximize();
-
-		System.out.println(driver.getTitle());
-	}
 
 	@Test(priority = 1)
 	public void SelectDropDown() {
 
-		WebElement Country = driver.findElement(By.id("country"));
+		WebElement Country = driver.findElement(By.id(CountryId));
 
 		Select sel = new Select(Country);
 
@@ -46,7 +37,7 @@ public class MultiTest {
 	@Test(priority = 2)
 	public void AdvanceDropDown() {
 
-		WebElement Country = driver.findElement(By.id("country"));
+		WebElement Country = driver.findElement(By.id(CountryId));
 
 		Select sel = new Select(Country);
 
@@ -64,9 +55,5 @@ public class MultiTest {
 
 	}
 
-	@AfterClass
-	public void CleanUp() {
-		driver.quit();
-	}
-
+	
 }

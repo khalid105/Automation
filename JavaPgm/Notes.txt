@@ -1,0 +1,218 @@
+if user seen some where double quotes "<Anything>"--- String
+
+
+if string is coming first and then plus symbol is there next part automatically 
+convert into the String 
+
+
+if user seen some where void symbol -- that is called a Method
+
+What is class ?
+
+class is a combination of Methods , objects and Constructor
+
+if any thing is missing we can't execute our pgm
+
+
+Constructor name and class name should be same - that is mandatory 
+
+
+What is Object ?
+
+
+Object is a replica of class or we can say blue print of the class
+
+
+WebDriver  driver = new ChromeDriver() //RTP
+
+
+Constructor/MOL/OR/Inheritance/Class and object
+
+3- 4 session in a week 
+
+
+Java
+Selenium
+TestNg
+Maven
+Jenkins
+Git
+PAge object model
+
+Cucumber
+
+Rest API /Postman
+
+
+Fees -- 450 USD 
+
+225+225
+
+
+
+Inheritance :-Aquaring a properties from the parent class - that is called 
+a inheritance and we can achieve with the help of extends keyword in java
+
+What is Multi level inheritance
+
+
+step by step inheritance or we can generation by generation transformation 
+is also known as Multi level inheritance
+
+
+
+what is Multiple inheritance
+
+If one class want to inherit more than one class at a time - that is called a 
+Multiple Inheritance
+
+
+can we achieve multiple inheritance in java
+
+No , we cant achieve at class level but we can achieve at interface level
+
+what is the major difference multiple and multi level inheritance
+
+
+what is single inheritance and Inheritance both is same
+
+child parent relation
+
+what is Many to One onheritance
+
+
+what is one to Many Inheritance - and Multiple Inheritance both is same
+and we can achieve at interface level 
+
+
+IS- A relation -- Inheritance , Multilevel inheritance
+
+Has - A relation-- Multiple Inheritane - Interface only
+
+
+Assignment - try to work on Any one of the example of Many to One Inheritance
+
+
+Try to create a pgm for currency - according to region it should print which country 
+currency is running 
+
+
+USA a = new USA()
+
+Method Over riding -
+
+
+Method Over riding :- We have to apply same methods but it should be in different classes
+and we can achive with the help of extends keyword and Implementation should be different
+
+
+Method Over loading :- we have to apply same methods but it should be in same class 
+but signature/Parameter/Data type should be different 
+
+Data Type 
+
+by default any whole number is int
+
+int - whole number ---- Medium range
+long- whole number -- high range
+short - whole number -- less than int and higher than byte
+byte--- whole number -- very less range
+
+
+by default any decimal value is double
+
+double  -- decimal value  --- high range
+float--- decimal value-- low range
+
+char -- 'a' 'b'
+boolean  -- true and false
+
+String --- String is not a data type - it is a class and we will use like a data type - "<anything>"
+
+
+
+Constructor :- 
+
+Construtcor name and class name should be same
+
+if user is not declaring any constructor  jvm will call default and blank constructor
+
+if user is declaring any constructor - jvm will not call default and blank constructor
+
+constructor doesnt contains any return type - like void
+
+
+Polymorphism :- Same object behaving different different instance through out the execution of the pgm 
+that is called a polymorphism
+
+
+Run Time Polymorphism -- Method Over riding , Upcasting
+
+Upcasting - trying to create a object of parent class and call child Constructor
+
+Compile Time Polymorphism  - Method Over loading
+
+
+
+Super Keyword 
+
+
+1 - Super means - Parent 
+
+
+super can be a Variable
+super can be a Method
+Super can be a Constructor
+
+Remember - Always super we can use along with inheritance only
+
+if Parent class constructor doesnt have any parameter super will invoke 
+by default 
+
+super and This constructor always be a first statement - Mandatory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
