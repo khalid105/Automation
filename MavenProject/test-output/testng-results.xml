@@ -2,43 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2025-05-19T21:38:36 EDT" name="Suite" finished-at="2025-05-19T21:38:40 EDT" duration-ms="3685">
+  <suite started-at="2025-06-24T22:26:41 EDT" name="Default suite" finished-at="2025-06-24T22:26:41 EDT" duration-ms="604">
     <groups>
     </groups>
-    <test started-at="2025-05-19T21:38:36 EDT" name="Test" finished-at="2025-05-19T21:38:40 EDT" duration-ms="3685">
-      <class name="com.test.MultiTest">
-        <test-method is-config="true" signature="Initalization()[pri:0, instance:com.test.MultiTest@5e5d171f]" started-at="2025-05-19T21:38:36 EDT" name="Initalization" finished-at="2025-05-19T21:38:39 EDT" duration-ms="2589" status="PASS">
+    <test started-at="2025-06-24T22:26:41 EDT" name="Default test" finished-at="2025-06-24T22:26:41 EDT" duration-ms="604">
+      <class name="com.dataread.ReadExcel">
+        <test-method signature="ExCelDataReader()[pri:0, instance:com.dataread.ReadExcel@3b0090a4]" started-at="2025-06-24T22:26:41 EDT" name="ExCelDataReader" finished-at="2025-06-24T22:26:41 EDT" duration-ms="560" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Initalization -->
-        <test-method signature="SelectDropDown()[pri:1, instance:com.test.MultiTest@5e5d171f]" started-at="2025-05-19T21:38:39 EDT" name="SelectDropDown" finished-at="2025-05-19T21:38:39 EDT" duration-ms="373" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectDropDown -->
-        <test-method signature="AdvanceDropDown()[pri:2, instance:com.test.MultiTest@5e5d171f]" started-at="2025-05-19T21:38:39 EDT" name="AdvanceDropDown" finished-at="2025-05-19T21:38:40 EDT" duration-ms="420" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AdvanceDropDown -->
-        <test-method is-config="true" signature="CleanUp()[pri:0, instance:com.test.MultiTest@5e5d171f]" started-at="2025-05-19T21:38:40 EDT" name="CleanUp" finished-at="2025-05-19T21:38:40 EDT" duration-ms="223" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CleanUp -->
-      </class> <!-- com.test.MultiTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
-=======
-  <suite started-at="2025-05-14T10:17:20 EDT" name="Default suite" finished-at="2025-05-14T10:17:24 EDT" duration-ms="4449">
-    <groups>
-    </groups>
-    <test started-at="2025-05-14T10:17:20 EDT" name="Default test" finished-at="2025-05-14T10:17:24 EDT" duration-ms="4449">
-      <class name="com.test.EdgeBrowser">
-        <test-method signature="LaunchEdgeBrowser()[pri:0, instance:com.test.EdgeBrowser@2a65fe7c]" started-at="2025-05-14T10:17:20 EDT" name="LaunchEdgeBrowser" finished-at="2025-05-14T10:17:24 EDT" duration-ms="4415" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchEdgeBrowser -->
-      </class> <!-- com.test.EdgeBrowser -->
+        </test-method> <!-- ExCelDataReader -->
+      </class> <!-- com.dataread.ReadExcel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
->>>>>>> 16ea912d71c632070691c140d013e80993d784a3
 </testng-results>
