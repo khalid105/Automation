@@ -25,7 +25,20 @@ public class ReadExcel {
 		
 	int rowcount = sheet.getLastRowNum();
 	
+	int colcount = row.getLastCellNum();
+	
 	System.out.println(rowcount);
+	System.out.println(colcount);
+	
+	for(int i = 0 ; i<colcount ; i++)
+	{
+		XSSFCell colvalue =  row.getCell(i);
+		
+		System.out.println(colvalue);
+		
+	}
+	
+	
 		
 	}
 
