@@ -204,10 +204,56 @@ stack memory   heap memory    class memory
 color            blue          color = blue
 
 
-class-class
-class-interface
-interface-interface
-interface-class --- all option is true -- nested concept
+
+Abstraction :- 
+
+Abstract is a Keyword 
+
+Abstact can be a class and Methods
+
+if class is abstract , we can create abstract and non abstract method
+
+Abstract method - Unimplemented method or we can say with out body
+
+Non Abstract method - Implemented method with body what we did earlier
+
+Abstarct class is not a complete class - because we cant create a object of abstract class 
+
+we cant achieve 100 % abstraction as well in Abstract class
+
+
+Interface :- 
+
+Interface is also a keyword
+
+interface can keep only abstract method
+
+interface can achieve 100% abstraction
+
+in interface by default any method is abstract no need to give abstract keyword in method
+
+class - class - extends
+
+class - interface - implements
+
+
+interface - interface - extends
+
+
+class - class
+
+class - interface
+
+interfcae - class
+interface - interface 
+
+
+
+
+
+
+
+
 
 
 
